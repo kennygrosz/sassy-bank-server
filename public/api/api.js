@@ -10,7 +10,7 @@ function create() {
     var pw = document.getElementById('createAccount_password').value;
     var status = document.getElementById('status');
     // var url = 'http://localhost:3000/account/create/' + name + '/' + email + '/' + pw;
-    var url = 'http://134.209.160.201/account/create/' + name + '/' + email + '/' + pw;
+    var url = 'http://134.209.160.201:3001/account/create/' + name + '/' + email + '/' + pw;
 
 
     superagent
@@ -36,7 +36,7 @@ function login() {
     var email = document.getElementById('login_email').value;
     var pw = document.getElementById('login_password').value;
     // var url = 'http://localhost:3000/account/login/' + email + '/' + pw;
-    var url = 'http://134.209.160.201/account/create/' + email + '/' + pw;
+    var url = 'http://134.209.160.201:3001/account/create/' + email + '/' + pw;
 
     var data = document.getElementById('data');
     var status =  document.getElementById('status');
@@ -75,7 +75,7 @@ function deposit() {
     var email = document.getElementById('deposit_email').value;
     var amount = document.getElementById('deposit_amount').value;
     // var url = 'http://localhost:3000/account/deposit/' + email + '/' + amount;
-    var url = 'http://134.209.160.201/account/create/' + email + '/' + amount;
+    var url = 'http://134.209.160.201:3001/account/create/' + email + '/' + amount;
     var status =  document.getElementById('status');
 
     superagent
@@ -105,7 +105,7 @@ function withdraw() {
     var email = document.getElementById('withdraw_email').value;
     var amount = document.getElementById('withdraw_amount').value;
     // var url = 'http://localhost:3000/account/withdraw/' + email + '/' + amount;
-    var url = 'http://134.209.160.201/account/create/' + email + '/' + amount;
+    var url = 'http://134.209.160.201:3001/account/create/' + email + '/' + amount;
 
     var status =  document.getElementById('status');
 
@@ -136,7 +136,7 @@ function transactions() {
 
     var email = document.getElementById('transactions_email').value;
     // var url = 'http://localhost:3000/account/transactions/' + email;
-    var url = 'http://134.209.160.201/account/create/' + email ;
+    var url = 'http://134.209.160.201:3001/account/create/' + email ;
 
     var data = document.getElementById('data');
     var status = document.getElementById('status');
@@ -172,7 +172,7 @@ function balance() {
 
     var email = document.getElementById('balance_email').value;
     // var url = 'http://localhost:3000/account/get/' + email;
-    var url = 'http://134.209.160.201/account/create/' + email;
+    var url = 'http://134.209.160.201:3001/account/create/' + email;
 
     var data = document.getElementById('data');
     var status = document.getElementById('status');
@@ -204,7 +204,7 @@ function allData() {
     //  Get all data
     // -------------------------------------
     // var url = 'http://localhost:3000/account/all';
-    var url = 'http://134.209.160.201/account/all';
+    var url = 'http://134.209.160.201:3001/account/all';
 
     var data = document.getElementById('data');
     var status = document.getElementById('status');

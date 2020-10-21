@@ -31,7 +31,7 @@ ui.default = `
     <div class="card-header">Welcome to the sassy bank.</div>
         <div class="card-body">
         <h5 class="card-title">We're not stoked that you're here...</h5>
-        <p class="card-text">Use the navigation bar to get to them. Is this your first time using the internet?</p>
+        <p class="card-text">Use the navigation bar to get to our different features. Is this your first time using the internet?</p>
         <img class="card-img-top" src="bank.png" alt="Bank Logo">
     </div>
 </div>
